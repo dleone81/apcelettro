@@ -14,19 +14,20 @@
 
 							<div class="widget clearfix">
 
-								<img src="{{ 'assets/images/footer-widget-logo.png' | relative_url }}" alt="" class="footer-logo">
+								<img src="{{ 'assets/images/demo/images/footer-widget-logo.png' | relative_url }}" alt="" class="footer-logo">
 
-								<p>We believe in <strong>Simple</strong>, <strong>Creative</strong> &amp; <strong>Flexible</strong> Design Standards.</p>
+								<p><strong>{{ site.company_name }}</strong></p>
 
 								<div style="background: url('images/world-map.png') no-repeat center center; background-size: 100%;">
 									<address>
-										<strong>Headquarters:</strong><br>
-										795 Folsom Ave, Suite 600<br>
-										San Francisco, CA 94107<br>
+										<strong>Sede legale e uffici:</strong><br>
+										{{ site.company_addr }}
 									</address>
-									<abbr title="Phone Number"><strong>Phone:</strong></abbr> (91) 8547 632521<br>
-									<abbr title="Fax"><strong>Fax:</strong></abbr> (91) 11 4752 1433<br>
-									<abbr title="Email Address"><strong>Email:</strong></abbr> info@canvas.com
+									<abbr title="Partita IVA"><strong>Partita IVA:</strong></abbr> {{ site.company_id }}<br>
+									<abbr title="Capitale sociale"><strong>Capitale sociale:</strong></abbr> {{ site.company_share_capital }}<br>
+									<abbr title="Telefono"><strong>Telefono:</strong></abbr> {{ site.company_phone }}<br>
+									<abbr title="Indirizzo email"><strong>Email:</strong></abbr> {{ site.company_email }}<br>
+									<abbr title="Indirizzo PEC email"><strong>PEC:</strong></abbr> {{ site.company_pec_email }}
 								</div>
 
 							</div>
@@ -163,67 +164,6 @@
 
 			</div>
 
-			<!-- Copyrights
-			============================================= -->
-			<div id="copyrights">
-
-				<div class="container clearfix">
-
-					<div class="col_half">
-						Copyrights &copy; 2014 All Rights Reserved by Canvas Inc.<br>
-						<div class="copyright-links"><a href="#">Terms of Use</a> / <a href="#">Privacy Policy</a></div>
-					</div>
-
-					<div class="col_half col_last tright">
-						<div class="fright clearfix">
-							<a href="#" class="social-icon si-small si-borderless si-facebook">
-								<i class="icon-facebook"></i>
-								<i class="icon-facebook"></i>
-							</a>
-
-							<a href="#" class="social-icon si-small si-borderless si-twitter">
-								<i class="icon-twitter"></i>
-								<i class="icon-twitter"></i>
-							</a>
-
-							<a href="#" class="social-icon si-small si-borderless si-gplus">
-								<i class="icon-gplus"></i>
-								<i class="icon-gplus"></i>
-							</a>
-
-							<a href="#" class="social-icon si-small si-borderless si-pinterest">
-								<i class="icon-pinterest"></i>
-								<i class="icon-pinterest"></i>
-							</a>
-
-							<a href="#" class="social-icon si-small si-borderless si-vimeo">
-								<i class="icon-vimeo"></i>
-								<i class="icon-vimeo"></i>
-							</a>
-
-							<a href="#" class="social-icon si-small si-borderless si-github">
-								<i class="icon-github"></i>
-								<i class="icon-github"></i>
-							</a>
-
-							<a href="#" class="social-icon si-small si-borderless si-yahoo">
-								<i class="icon-yahoo"></i>
-								<i class="icon-yahoo"></i>
-							</a>
-
-							<a href="#" class="social-icon si-small si-borderless si-linkedin">
-								<i class="icon-linkedin"></i>
-								<i class="icon-linkedin"></i>
-							</a>
-						</div>
-
-						<div class="clear"></div>
-
-						<i class="icon-envelope2"></i> info@canvas.com <span class="middot">&middot;</span> <i class="icon-headphones"></i> +91-11-6541-6369 <span class="middot">&middot;</span> <i class="icon-skype2"></i> CanvasOnSkype
-					</div>
-
-				</div>
-
-			</div><!-- #copyrights end -->
+			{% include copyright.html %}
 
 		</footer><!-- #footer end -->
