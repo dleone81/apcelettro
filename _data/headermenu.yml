@@ -1,0 +1,25 @@
+toc:
+- title: Brand
+  url: /brand
+- title: Chi siamo
+  subfolderitems:
+    - page: La nostra storia
+      url: /storia
+    - page: La mission
+      url: /mission
+    - page: Struttura commerciale
+      url: /struttura-commerciale
+    - page: Struttura tecnica
+      url: /struttura-tecnica
+- title: I nostri settori
+  subfolderitems:
+    - page: Sicurezza
+      url: /sicurezza
+    - page: Fire and evac
+      url: /fire-and_evac
+    - page: Automazione per la casa
+      url: /automazione-casa
+    - page: Illuminazione
+      url: /illuminazione
+- title: Facciamo il punto
+  url: /news
