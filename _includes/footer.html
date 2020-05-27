@@ -14,7 +14,7 @@
 
 					<div class="widget clearfix">
 
-						<img src="{{ 'assets/images/demo/images/footer-widget-logo.png' | relative_url }}" alt="" class="footer-logo">
+						<img src="{{ 'assets/images/footer-widget-logo-dark.png' | relative_url }}" alt="" class="footer-logo">
 
 						<p><strong>{{ site.company_name }}</strong></p>
 
@@ -38,16 +38,12 @@
 
 					<div class="widget widget_links clearfix">
 
-						<h4>Blogroll</h4>
+						<h4>{{ site.data.footermenu.docs_title }}</h4>
 
 						<ul>
-							<li><a href="https://codex.wordpress.org/">Documentation</a></li>
-							<li><a href="https://wordpress.org/support/forum/requests-and-feedback">Feedback</a></li>
-							<li><a href="https://wordpress.org/extend/plugins/">Plugins</a></li>
-							<li><a href="https://wordpress.org/support/">Support Forums</a></li>
-							<li><a href="https://wordpress.org/extend/themes/">Themes</a></li>
-							<li><a href="https://wordpress.org/news/">WordPress Blog</a></li>
-							<li><a href="https://planet.wordpress.org/">WordPress Planet</a></li>
+   							{% for item in site.data.footermenu.docs %}
+							<li><a href="{{ item.url }}">{{ item.title }}</a></li>
+   							{% endfor %}	
 						</ul>
 
 					</div>
