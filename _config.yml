@@ -57,3 +57,19 @@ jekyll_admin:
     - staticfiles
     - datafiles
     - configuration
+
+collections:
+  authors:
+    output: true
+
+defaults:
+- scope:
+    path: ""
+    type: "posts"
+  values:
+    layout: "blog"
+    title: ""
+    subtitle: ""
+    description: ""
+    tag: ""
+    author: ""

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="it-IT">
+
+{% include head.html %}
+
+<body class="stretched">
+
+	<!-- Document Wrapper
+	============================================= -->
+	<div id="wrapper" class="clearfix">
+
+		<!-- Header
+		============================================= -->
+		<header id="header" class="full-header">
+
+			<div id="header-wrap">
+
+				<div class="container clearfix">
+
+					<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+
+					{% include logo.html %}
+
+					{% include nav.html %}
+
+				</div>
+
+			</div>
+
+		</header><!-- #header end -->
+
+		<!-- Page Title
+		============================================= -->
+		<section id="page-title">
+
+			<div class="container clearfix">
+				<h1>{{ page.title }}</h1>
+				<ol class="breadcrumb">
+					<li class="breadcrumb-item"><a href="#">Home</a></li>
+					<li class="breadcrumb-item"><a href="#">Blog</a></li>
+					<li class="breadcrumb-item active" aria-current="page">Blog Single</li>
+				</ol>
+			</div>
+
+		</section><!-- #page-title end -->
+
+		<!-- Content
+		============================================= -->
+		<section id="content">
+
+			<div class="content-wrap">
+
+				<div class="container clearfix">
+
+                    <div class="fancy-title title-border">
+						<h3>Lo staff</h3>
+					</div>
+
+					<div class="row">
+
+                        {% for author in site.authors %}
+                        <div class="col-lg-6 bottommargin">
+
+							<div class="team team-list clearfix">
+								<div class="team-image">
+									{% if author.thumbnail != null and author.thumbnail != "" %}
+									<img src="assets/images/team/{{ author.thumbnail}}" alt="{{ author.name }}">
+									{% else %}
+									<img src="{{ 'assets/images/team/thumbnail.jpg' | prepend: relative_url }}" alt="{{ author.name }}">
+									{% endif %}
+								</div>
+								<div class="team-desc">
+									<div class="team-title"><h4>{{ author.name }}</h4><span>{{ author.position }}</span></div>
+									<div class="team-content">
+										<p>{{ author.content | markdownify }}</p>
+									</div>
+									{% if author.linkedin != null and author.linkedin != "" %}
+									<a href="{{ author.linkedin }}" target="blank" class="social-icon si-rounded si-small si-linkedin">
+										<i class="icon-linkedin"></i>
+										<i class="icon-linkedin"></i>
+									</a>
+									{% endif %}
+								</div>
+							</div>
+
+						</div>
+                        {% endfor %}
+
+					</div>
+
+					<div class="clear"></div>
+
+				</div>
+
+			</div>
+
+		</section><!-- #content end -->
+
+		{% include footer.html %}
+
+	</div><!-- #wrapper end -->
+
+	{% include bottomScripts.html%}
+
+</body>
+</html>
