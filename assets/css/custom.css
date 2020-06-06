@@ -1,0 +1,4 @@
+section#slider > div > div {
+    background-color: rgba(0,0,0,0.5);
+    padding: 15px 0;
+}

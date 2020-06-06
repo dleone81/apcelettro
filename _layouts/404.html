@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="it-IT">
+
+{% include head.html %}
+
+<body class="stretched">
+
+	<!-- Document Wrapper
+	============================================= -->
+	<div id="wrapper" class="clearfix">
+
+		<!-- Header
+		============================================= -->
+		<header id="header" class="full-header">
+
+			<div id="header-wrap">
+
+				<div class="container clearfix">
+
+					<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+
+					{% include logo.html %}
+
+					{% include nav.html %}
+
+				</div>
+
+			</div>
+
+		</header><!-- #header end -->
+
+		<section id="slider" class="slider-element slider-parallax full-screen dark error404-wrap" style="background: url({{ 'assets/images/404-not-found.jpg' | prepend: relative_url }}) center;">
+			<div class="slider-parallax-inner">
+		
+				<div class="container-fluid vertical-middle center clearfix">
+		
+					<div class="error404">404</div>
+		
+					<div class="heading-block nobottomborder">
+						{{ content }}
+					</div>
+		
+					<form action="#" method="get" class="divcenter nobottommargin">
+						<div class="input-group input-group-lg">
+							<input type="text" class="form-control" placeholder="Cerca ora...">
+							<div class="input-group-append">
+								<button class="btn btn-danger" type="button">Invia</button>
+							</div>
+						</div>
+					</form>
+		
+				</div>
+		
+			</div>
+		</section>
+
+		{% include footer.html %}
+
+	</div><!-- #wrapper end -->
+
+	{% include bottomScripts.html%}
+
+</body>
+</html>
