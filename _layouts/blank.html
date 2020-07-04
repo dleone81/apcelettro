@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="it-IT">
+
+{% include head.html %}
+
+<body class="stretched">
+
+	<!-- Document Wrapper
+	============================================= -->
+	<div id="wrapper" class="clearfix">
+
+		<!-- Header
+		============================================= -->
+		<header id="header" class="transparent-header full-header" data-sticky-class="not-dark">
+
+			<div id="header-wrap">
+
+				<div class="container clearfix">
+
+					<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+
+					{% include logo.html %}
+
+					{% include nav.html %}
+
+				</div>
+
+			</div>
+
+		</header><!-- #header end -->
+
+		<!-- Content
+		============================================= -->
+		<section id="content">
+
+			<div class="content-wrap">
+
+				<div class="container center clearfix">
+
+					<div class="heading-block center">
+						<h1>{{ page.title }}</h1>
+						<span>{{ page.subtitle }}</span>
+					</div>
+
+					{{ content }}
+
+					<a href="index.html" class="btn btn-secondary topmargin-sm">&lArr; Torna in homepage</a>
+
+				</div>
+
+			</div>
+
+		</section><!-- #content end -->
+
+		{% include footer.html %}
+
+	</div><!-- #wrapper end -->
+
+	{% include bottomScripts.html%}
+
+</body>
+</html>
