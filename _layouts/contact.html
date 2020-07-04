@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="it-IT">
+
+{% include head.html %}
+
+<body class="stretched">
+
+	<!-- Document Wrapper
+	============================================= -->
+	<div id="wrapper" class="clearfix">
+
+		<!-- Header
+		============================================= -->
+		<header id="header" class="full-header">
+
+			<div id="header-wrap">
+
+				<div class="container clearfix">
+
+					<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+
+					{% include logo.html %}
+
+					{% include nav.html %}
+
+				</div>
+
+			</div>
+
+		</header><!-- #header end -->
+
+		<!-- Page Title
+		============================================= -->
+		<section id="page-title">
+
+			<div class="container clearfix">
+				<h1>{{ page.title }}</h1>
+				{% include breadcrumbs.html %}
+			</div>
+
+		</section><!-- #page-title end -->
+
+		<!-- Content
+		============================================= -->
+		<section id="content">
+
+			<div class="content-wrap">
+
+				<div class="container clearfix">
+
+                    <!-- Comment Form
+                            ============================================= -->
+                            <div class="form-widget" data-alert-type="false">
+                                <div class="form-result" style="display: none;"></div>
+                                <div class="row">
+
+                                    <h3>Richiedi <span>informazioni</span></h3>
+
+                                    <form class="clearfix" action="#" method="post" id="contact-us">
+
+                                        <div class="col_one_third">
+                                            <label for="fullname">Nome e cognome <i>(obbligatorio)</i></label>
+                                            <input id="fullname" type="text" name="fullname" value="" size="22" tabindex="1" class="sm-form-control required" />
+                                        </div>
+
+                                        <div class="col_one_third">
+                                            <label for="piva">Partita IVA</label>
+                                            <input id="piva" type="text" name="piva" value="" size="22" tabindex="2" class="sm-form-control" />
+                                        </div>
+
+                                        <div class="col_one_third col_last">
+                                            <label for="email">Email <i>(obbligatorio)</i></label>
+                                            <input id="email" type="text" name="email" value="" size="22" tabindex="3" class="sm-form-control required" />
+                                        </div>
+
+                                        <div class="form-group col_half">
+                                            <label for="category">Classificazione <i>(obbligatorio)</i></label>
+                                            <select class="form-control required" id="category">
+                                                <option value>Seleziona una categoria</option>
+                                                <option value="installatore">Installatore</option>
+                                                <option value="grossista">Grossista</option>
+                                                <option value="progettista">Progettista</option>
+                                                <option value="privato">Privato</option>
+                                                <option value="altro">Altro</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="form-group col_half col_last">
+                                            <label for="interest">Interesse <i>(obbligatorio)</i></label>
+                                            <select class="form-control required" id="interest">
+                                                <option value>Seleziona un interesse</option>
+                                                <option value="safety">Safety and security</option>
+                                                <option value="fire-and-evac">Fire and evac</option>
+                                                <option value="home-automazione">Home automazione</option>
+                                                <option value="lighting">Lighting</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="clear"></div>
+
+                                        <div class="col_full">
+                                            <label for="msg">Messaggio <i>(obbligatorio)</i></label>
+                                            <textarea id="msg" name="msg" cols="58" rows="7" tabindex="4" class="sm-form-control required"></textarea>
+                                        </div>
+
+                                        <div class="form-check col_full">
+                                            <input type="checkbox" class="form-check-input" id="privacy">
+                                            <label class="form-check-label required" for="privacy">Accetto il trattmento dei dati personali</label>
+                                        </div>
+
+                                        <div class="col_full nobottommargin">
+                                            <!-- button name="submit" type="button" id="send" tabindex="5" value="Invia" class="button button-3d nomargin required">Invia la tua richiesta</button -->
+                                            <button type="submit" id="send" name="feedback-form-submit" class="btn btn-secondary">Invia la tua richiesta</button>    
+                                        </div>
+
+                                    </form>
+
+                                </div><!-- #respond end -->
+                            </div>
+
+                        </div><!-- #comments end -->
+
+					<div class="clear"></div>
+
+				</div>
+
+			</div>
+
+        </section><!-- #content end -->
+        
+        {% include notify.html %}
+
+        {% include footer.html %}
+
+	</div><!-- #wrapper end -->
+
+    {% include bottomScripts.html%}
+
+</body>
+</html>

@@ -1,0 +1,91 @@
+---
+---
+/*
+ * https://getbootstrap.com/docs/4.0/components/alerts/
+*/
+
+$text-std: #555;
+
+$secondary-bgcolor: #e2e3e5;
+$secondary-border: #d6d8db;
+$secondary-text: #383d41;
+
+$info-bgcolor: #cce5ff;
+$info-border: #b8daff;
+$info-text: #004085;
+
+$success-bgcolor: #c3e6cb;
+$success-border: #d4edda;
+$success-text: #155724;
+
+$danger-bgcolor: #f8d7da;
+$danger-border: #f5c6cb;
+$danger-text: #721c24;
+
+$warning-bgcolor: #fff3cd;
+$warning-border: #ffeeba;
+$warning-text: #856404;
+
+
+#notify {
+    display:none;
+    position: fixed;
+    bottom: 5%;
+    right: 2.5%;
+    padding: 15px;
+    z-index: 1000;
+    box-shadow: 0px 0px 25px 1px $text-std;
+    width: 33%;
+    height: auto !important;
+    border-radius: 5px;
+    p,
+    p > a,
+    p > a:hover {
+        color: $text-std;
+    }
+    p > a {
+        font-weight:bold;
+        margin:0px;
+    } 
+}
+#notify.alert.alert-info {
+    background-color: $info-bgcolor;
+    border-color: $info-border;
+}
+#notify.alert.alert-info > p {
+    color: $info-text;
+}
+#notify.alert.alert-secondary {
+    background-color: $secondary-bgcolor;
+    border-color: $secondary-border;
+}
+#notify.alert.alert-secondary > p {
+    color: $secondary-text;
+}
+#notify.alert.alert-success {
+    background-color: $success-bgcolor;
+    border-color: $success-border;
+}
+#notify.alert.alert-success > p {
+    color: $success-text;
+}
+#notify.alert.alert-danger {
+    background-color: $danger-bgcolor;
+    border-color: $danger-border;
+}
+#notify.alert.alert-danger > p {
+    color: $danger-text;
+}
+#notify.alert.alert-warning {
+    background-color: $warning-bgcolor;
+    border-color: $warning-border;
+}
+#notify.alert.alert-warning > p {
+    color: $warning-text;
+}
+
+@media screen and (max-width: 736px){
+    #notify {
+        width:95%;
+    }
+}
