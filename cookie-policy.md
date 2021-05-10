@@ -5,7 +5,7 @@ layout: page
 permalink: /cookie-policy
 ---
 _Ultimo aggiornamento: 10 maggio 2021_  
-Questa politica sui cookie spiega cosa sono i cookie e come li utilizziamo.  
+> Questa politica sui cookie spiega cosa sono i cookie e come li utilizziamo.  
 Dovresti leggere questa politica in modo da poter capire quale tipo di cookie utilizziamo o le informazioni che raccogliamo utilizzando i cookie e come vengono utilizzate tali informazioni.  
 
 I cookie in genere non contengono informazioni che identificano personalmente un utente, ma le informazioni personali che memorizziamo su di te potrebbero essere collegate alle informazioni archiviate e ottenute dai cookie. Per ulteriori informazioni su come utilizziamo, archiviamo e proteggiamo i tuoi dati personali, consulta la nostra Informativa sulla privacy.  
