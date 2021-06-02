@@ -1,27 +1,11 @@
 toc:
-- title: Brand
-  url: /brand
 - title: Chi siamo
-  subfolderitems:
-    - page: La nostra storia
-      url: /storia
-    - page: La mission
-      url: /mission
-    - page: Struttura commerciale
-      url: /struttura-commerciale
-    - page: Struttura tecnica
-      url: /struttura-tecnica
-- title: I nostri settori
-  subfolderitems:
-    - page: Sicurezza
-      url: /sicurezza
-    - page: Fire and evac
-      url: /fire-and_evac
-    - page: Automazione per la casa
-      url: /automazione-casa
-    - page: Illuminazione
-      url: /illuminazione
-- title: News
-  url: /news
+  url: index.html#chi-siamo
+- title: Servizi
+  url: index.html#servizi
+- title: Staff
+  url: index.html#staff
+- title: Brand
+  url: index.html#brand
 - title: Contattaci
   url: /contattaci

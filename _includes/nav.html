@@ -5,7 +5,7 @@
 <nav id="primary-menu" class="dark">
     <ul>
         {% for item in site.data.headermenu.toc %}
-        <li class="current"><a href="{{ item.url }}"><div>{{ item.title }}</div></a>
+        <li><a href="{{ item.url }}"><div>{{ item.title }}</div></a>
             <ul>
                 {% for entry in item.subfolderitems %}
                 <li><a href="{{ entry.url }}"><div>{{ entry.page }}</div></a></li>
@@ -14,7 +14,5 @@
         </li>
         {% endfor %}
     </ul>
-
-    {% include search.html %}
 
 </nav><!-- #primary-menu end -->
