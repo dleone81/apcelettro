@@ -1,4 +1,38 @@
+
+html {
+    scroll-behavior: smooth;
+}
 section#slider > div > div {
     background-color: rgba(0,0,0,0.5);
     padding: 15px 0!important;
+}
+.brand_logo.beghelli {
+    background-color: #009de0;
+}
+@media screen and (min-width: 1024px){
+    .owl-stage-outer > .owl-stage {
+        height:140px!important;
+        position: relative;
+    }
+    .owl-stage-outer > .owl-stage > .owl-item {
+        margin: 0;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+    .col_one_third.bottommargin-sm.center > img {
+        margin: 0;
+        position: absolute;
+        left:0;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        max-width: 25%;
+    }
+}
+.anchor {
+    display: block;
+    height: 92px;
+    margin-top: -92px;
+    visibility: hidden;
 }
