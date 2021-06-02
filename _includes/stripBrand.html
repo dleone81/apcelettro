@@ -1,0 +1,10 @@
+<span class="anchor" id="brand"></span>
+<div class="container clearfix">
+
+    <div id="oc-clients" class="owl-carousel image-carousel carousel-widget" data-margin="60" data-loop="true" data-nav="false" data-autoplay="5000" data-pagi="false" data-items-xs="2" data-items-sm="3" data-items-md="4" data-items-lg="5" data-items-xl="6">
+        {% for item in site.data.brandmenu.toc %}
+        <div class="oc-item {{ item.style }}"><a href="{{ item.url }}" target="_new" title="Visita {{ item.title }}"><img src="{{ item.image }}" alt="{{ item.title }} logo"></a></div>
+        {% endfor %}
+    </div>
+
+</div>
