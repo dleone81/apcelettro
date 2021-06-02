@@ -5,6 +5,10 @@
     <div class="container clearfix">
 
         <div class="col_half">
+            <div class="copyright-links"><a href="{{ site.url }}/cookie-policy">Cookie Policy</a> / <a href="{{ site.url }}/privacy-policy">Privacy Policy</a></div>
+        </div>
+
+        <div class="col_half col_last tright">
             Copyrights &copy;
 
                 {% assign d = 'now' | date: '%Y' }} %}
@@ -13,33 +17,8 @@
                 {% else %}
                     2020 - {{d}} {{ site.company_name }}<br>
                 {% endif %}
-
-            <div class="copyright-links"><a href="{{ site.url }}/cookie-policy">Cookie Policy</a> / <a href="{{ site.url }}/privacy-policy">Privacy Policy</a></div>
         </div>
-
-        <div class="col_half col_last tright">
-            <div class="fright clearfix">
-                <a href="{{ site.facebook_page }}" class="social-icon si-small si-borderless si-facebook">
-                    <i class="icon-facebook"></i>
-                    <i class="icon-facebook"></i>
-                </a>
-
-                <a href="{{ site.instagram_page }}" class="social-icon si-small si-borderless si-instagram">
-                    <i class="icon-instagram"></i>
-                    <i class="icon-instagram"></i>
-                </a>
-
-                <a href="{{ site.linkedin_page }}" class="social-icon si-small si-borderless si-linkedin">
-                    <i class="icon-linkedin"></i>
-                    <i class="icon-linkedin"></i>
-                </a>
-            </div>
-
-            <div class="clear"></div>
-
-            <i class="icon-envelope2"></i> <a href="#" title=" Contattaci">{{ site.company_email }}</a> <span class="middot">&middot;</span> <i class="icon-headphones"></i> {{ site.company_phone }} <span class="middot">&middot;</span>
-        </div>
-
+        
     </div>
 
 </div><!-- #copyrights end -->
