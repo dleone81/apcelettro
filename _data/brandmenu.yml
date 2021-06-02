@@ -1,0 +1,26 @@
+toc:
+- title: Hik Vision
+  url: https://www.hikvision.com/it
+  description: Hikvision è un fornitore leader a livello mondiale di prodotti e soluzioni per la sicurezza.  Con una forza lavoro di ricerca e sviluppo estesa e altamente qualificata, Hikvision produce una suite completa di prodotti e soluzioni per un'ampia gamma di mercati verticali.  Oltre al settore della sicurezza, Hikvision estende la sua portata ai settori della tecnologia per la casa intelligente, dell'automazione industriale e dell'elettronica automobilistica per raggiungere la sua visione a lungo termine.  I prodotti Hikvision offrono inoltre una potente business intelligence per gli utenti finali, che può consentire operazioni più efficienti e un maggiore successo commerciale.
+  image: /assets/images/brand/hikvision_logo.svg
+  style: brand_logo hikvision
+- title: Siemens
+  url: https://www.siemens.com/
+  image: /assets/images/brand/siemens_logo.svg
+  style: brand_logo siemens
+- title: Beghelli
+  url: https://www.beghelli.it/it
+  image: /assets/images/brand/beghelli_logo.svg
+  style: brand_logo beghelli
+- title: Somfy
+  url: https://www.somfy.it
+  image: /assets/images/brand/somfy_logo.svg
+  style: brand_logo somfy
+- title: BTF
+  url: https://www.bft-automation.com/it_IT/
+  image: /assets/images/brand/btf_logo.svg
+  style: brand_logo btf
+- title: Elcom
+  url: https://elcomledcomponents.com
+  image: /assets/images/brand/elcom_logo.png
+  style: brand_logo elcom
