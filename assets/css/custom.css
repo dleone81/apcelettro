@@ -3,7 +3,7 @@ html {
     scroll-behavior: smooth;
 }
 #header.transparent-header #header-wrap.not-sticky {
-    background: #fedf33!important;
+    background-color: #fedf33!important;
 }
 section#slider > div > div {
     background-color: rgba(0,0,0,0.5);
@@ -12,6 +12,11 @@ section#slider > div > div {
 .brand_logo.beghelli {
     background-color: #009de0;
 }
+#slider.error404-wrap {
+    background-image: url('../images/404-not-found.jpg');
+    background-position: center center;
+}
+
 @media screen and (min-width: 1024px){
     .owl-stage-outer > .owl-stage {
         height:140px!important;
