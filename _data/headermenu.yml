@@ -1,11 +1,11 @@
 toc:
 - title: Chi siamo
-  url: index.html#chi-siamo
+  url: index#chi-siamo
 - title: Servizi
-  url: /index#servizi
+  url: index#servizi
 - title: Staff
-  url: /index#staff
+  url: index#staff
 - title: Brand
-  url: /index#brand
+  url: index#brand
 - title: Contattaci
-  url: /contattaci
+  url: contattaci

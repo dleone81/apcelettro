@@ -5,4 +5,5 @@ title: Pagina iniziale
 description: Qui inserire la descrione della pagina
 keywords:
 layout: home
+permalink: /index
 ---
