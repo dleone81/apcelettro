@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="it-IT">
+
+{% include head.html %}
+
+<body class="stretched">
+
+	<!-- Document Wrapper
+	============================================= -->
+	<div id="wrapper" class="clearfix">
+
+		<!-- Header
+		============================================= -->
+		<header id="header" class="transparent-header full-header" data-sticky-class="not-dark">
+
+			<div id="header-wrap">
+
+				<div class="container clearfix">
+
+					<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+
+					{% include logo.html %}
+
+					{% include navHeader.html %}
+
+				</div>
+
+			</div>
+
+		</header><!-- #header end -->
+
+		<!-- Page Title
+		============================================= -->
+		<section id="page-title">
+
+			<div class="container clearfix">
+				<h1>{{ page.title }}</h1>
+				{% include breadcrumbs.html %}
+			</div>
+
+		</section><!-- #page-title end -->
+
+		<!-- Content
+		============================================= -->
+		<section id="content">
+
+			<div class="content-wrap">
+
+				{% for item in site.data.brandmenu.toc %}
+
+				<div class="container clearfix">
+
+					<div class="col_one_third bottommargin-sm center">
+						<img data-animate="fadeInLeft" src=" {{ item.image }}" alt="{{ item.title }}" class="fadeInLeft animated">
+					</div>
+
+					<div class="col_two_third bottommargin-sm col_last">
+
+						<div class="heading-block topmargin-sm">
+							<h3>Optimized for Mobile &amp; Touch Enabled Devices.</h3>
+						</div>
+
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero quod consequuntur quibusdam, enim expedita sed quia nesciunt incidunt accusamus necessitatibus modi adipisci officia libero accusantium esse hic, obcaecati, ullam, laboriosam!</p>
+
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti vero, animi suscipit id facere officia. Aspernatur, quo, quos nisi dolorum aperiam fugiat deserunt velit rerum laudantium cum magnam.</p>
+
+						<a href="#" class="button button-border button-dark button-rounded button-large noleftmargin topmargin-sm">Learn more</a>
+
+					</div>
+
+				</div>
+
+				{% endfor %}
+
+				{% include stripWhoWhyWhat.html %}
+
+				<div class="section nomargin">
+					<div class="container clearfix">
+
+						<div class="col_one_fourth nobottommargin center" data-animate="bounceIn">
+							<i class="i-plain i-xlarge divcenter icon-line2-directions"></i>
+							<div class="counter counter-lined"><span data-from="100" data-to="846" data-refresh-interval="50" data-speed="2000"></span>K+</div>
+							<h5>Lines of Codes</h5>
+						</div>
+
+						<div class="col_one_fourth nobottommargin center" data-animate="bounceIn" data-delay="200">
+							<i class="i-plain i-xlarge divcenter nobottommargin icon-line2-graph"></i>
+							<div class="counter counter-lined"><span data-from="3000" data-to="15360" data-refresh-interval="100" data-speed="2500"></span>+</div>
+							<h5>KBs of HTML Files</h5>
+						</div>
+
+						<div class="col_one_fourth nobottommargin center" data-animate="bounceIn" data-delay="400">
+							<i class="i-plain i-xlarge divcenter nobottommargin icon-line2-layers"></i>
+							<div class="counter counter-lined"><span data-from="10" data-to="408" data-refresh-interval="25" data-speed="3500"></span>*</div>
+							<h5>No. of Templates</h5>
+						</div>
+
+						<div class="col_one_fourth nobottommargin center col_last" data-animate="bounceIn" data-delay="600">
+							<i class="i-plain i-xlarge divcenter nobottommargin icon-line2-clock"></i>
+							<div class="counter counter-lined"><span data-from="60" data-to="1200" data-refresh-interval="30" data-speed="2700"></span>+</div>
+							<h5>Hours of Coding</h5>
+						</div>
+
+					</div>
+				</div>
+
+				<!-- div class="container clearfix">
+
+					<div class="clear"></div>
+
+					<div class="heading-block center">
+						<h4>Our Clients</h4>
+					</div>
+
+					<ul class="clients-grid grid-6 nobottommargin clearfix">
+						<li><a href="https://logofury.com/logo/enzo.html"><img src="images/clients/1.png" alt="Clients"></a></li>
+						<li><a href="https://logofury.com"><img src="images/clients/2.png" alt="Clients"></a></li>
+						<li><a href="https://logofaves.com/2014/03/grabbt/"><img src="images/clients/3.png" alt="Clients"></a></li>
+						<li><a href="https://logofaves.com/2014/01/ladera-granola/"><img src="images/clients/4.png" alt="Clients"></a></li>
+						<li><a href="https://logofaves.com/2014/02/hershel-farms/"><img src="images/clients/5.png" alt="Clients"></a></li>
+						<li><a href="https://logofury.com/logo/food-fight-radio.html"><img src="images/clients/6.png" alt="Clients"></a></li>
+						<li><a href="https://logofury.com"><img src="images/clients/7.png" alt="Clients"></a></li>
+						<li><a href="https://logofury.com/logo/up-travel.html"><img src="images/clients/8.png" alt="Clients"></a></li>
+						<li><a href="https://logofury.com/logo/caffi-bardi.html"><img src="images/clients/9.png" alt="Clients"></a></li>
+						<li><a href="https://logofury.com/logo/bignix-design.html"><img src="images/clients/10.png" alt="Clients"></a></li>
+						<li><a href="https://logofury.com/"><img src="images/clients/11.png" alt="Clients"></a></li>
+						<li><a href="https://logofury.com/"><img src="images/clients/12.png" alt="Clients"></a></li>
+					</ul>
+
+				</div -->
+
+			</div>
+
+		</section><!-- #content end -->
+
+		{% include footer.html %}
+
+	</div><!-- #wrapper end -->
+
+	{% include bottomScripts.html%}
+
+</body>
+</html>

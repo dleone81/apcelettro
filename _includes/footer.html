@@ -34,21 +34,7 @@
 
 				</div>
 
-				<div class="col_one_third">
-
-					<div class="widget widget_links clearfix">
-
-						<h4>{{ site.data.footermenu.docs_title }}</h4>
-
-						<ul>
-   							{% for item in site.data.footermenu.docs %}
-							<li><a href="{{ item.url }}">{{ item.title }}</a></li>
-   							{% endfor %}	
-						</ul>
-
-					</div>
-
-				</div>
+				{% include navFooter.html %}
 
 				<div class="col_one_third col_last">
 
