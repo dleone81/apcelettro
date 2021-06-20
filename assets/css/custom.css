@@ -12,6 +12,9 @@ section#slider > div > div {
 .brand_logo.beghelli {
     background-color: #009de0;
 }
+.brand_logo.televes {
+    background-color:#f6a400;
+}
 #slider.error404-wrap {
     background-image: url('../images/404-not-found.jpg');
     background-position: center center;
