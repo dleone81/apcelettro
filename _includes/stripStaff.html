@@ -17,12 +17,20 @@
                 {% endif %}
             </div>
             <div class="team-desc team-desc-bg">
-                <div class="team-title"><h4>{{ author.name }}</h4><span>{{ author.position }}</span></div>
+                <div class="team-title"><h4>{{ author.name }}</h4>
+                <span>{{ author.position }}</span>
+                <span><a href="tel:+39{{ author.phone }}" title="Chiama {{ author.name }}">{{ author.phone }}</a></span></div>
                 <div class="team-content">
                     <p>{{ author.content | markdownify }}</p>
                 </div>
+                {% if author.phone != null and author.linkedin != "" %}
+                <a href="tel:+39{{ author.phone }}" target="blank" class="social-icon si-rounded si-small si-call" title="Chiama {{ author.name }}">
+                    <i class="icon-call"></i>
+                    <i class="icon-call"></i>
+                </a>
+                {% endif %}
                 {% if author.linkedin != null and author.linkedin != "" %}
-                <a href="{{ author.linkedin }}" target="blank" class="social-icon si-rounded si-small si-linkedin">
+                <a href="{{ author.linkedin }}" target="blank" class="social-icon si-rounded si-small si-linkedin" title="Visita il profilo LinkedIn {{ author.name }}">
                     <i class="icon-linkedin"></i>
                     <i class="icon-linkedin"></i>
                 </a>

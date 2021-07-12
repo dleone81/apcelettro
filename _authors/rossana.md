@@ -1,7 +1,8 @@
 ---
 short_name: Rossana
 name: Rossana
-email: rossana@apcelettrorappresentanze.it
+email: amministrazione@apcelettrorappresentanze.it
+phone: 3518473235
 position: Amministrazione e back office
 thumbnail: rossana.jpg
 ---

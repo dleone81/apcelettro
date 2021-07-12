@@ -3,6 +3,7 @@ short_name: Andrea
 name: Andrea Cattaneo
 thumbnail: in_andrea_cattaneo.jpg
 email: andrea@apcelettrorappresentanze.it
+phone: 3401240390
 linkedin: "https://www.linkedin.com/in/andrea-cattaneo-b661a397/"
 position: Titolare e commerciale BG BS
 ---
