@@ -2,7 +2,7 @@
 html {
     scroll-behavior: smooth;
 }
-#header.transparent-header #header-wrap.not-sticky {
+#header.transparent-header.full-header.sticky-header > #header-wrap.not-dark {
     background-color: #fedf33!important;
 }
 section#slider > div > div {
