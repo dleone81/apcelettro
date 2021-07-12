@@ -88,7 +88,8 @@ $(document).ready(function(){
                 reject(notify.destroy());
                 console.log(e);
             }
-        }).then(function(result){
+        })
+        promise.then(function(result){
             sendEmail(result);
         });
     });
