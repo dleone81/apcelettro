@@ -1,5 +1,5 @@
 var smtp = {
-    "token": "bfa671e2-1762-4df4-aa17-f4d1fe0b8957",
+    "token": "47c83038-f451-4c3c-8d67-264e89348313",
     "to": "info@apcelettrorappresentanze.it",
     "in": 750,
     "out": 5000,
