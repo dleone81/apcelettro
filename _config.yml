@@ -22,8 +22,8 @@ baseurl: "/" # the subpath of your site, e.g. /blog
 ## url: "https://www.apcelettrorappresentanze.it" # the base hostname & protocol for your site, e.g. http://example.com
 company_name: APC Elettrorappresentanze srl
 company_addr: >- 
-  Via Fratello Bandiera 2<br>
-  Treviolo 24048 BG<br>
+  Via Enrico Fermi 14<br>
+  Curno 24035 BG<br>
 company_phone: (+39) 351 8473235
 company_id: 04410090163
 company_share_capital: 10000 euro (i.v.)
