@@ -1,7 +1,7 @@
 ---
 short_name: Massimiliano
 name: Massimiliano Pollace
-thumbnail: in_massimiliano_pollace.jpg
+thumbnail: Pollace.jpg
 email: massimiliano@apcelettrorappresentanze.it
 phone: 3486404727
 linkedin: "https://www.linkedin.com/in/massimiliano-pollace-0b204a95"
