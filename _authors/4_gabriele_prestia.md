@@ -1,7 +1,7 @@
 ---
 short_name: Gabriele
 name: Gabriele Prestia
-thumbnail: Prestia.jpg
+thumbnail: Prestia.JPG
 email: gabriele@apcelettrorappresentanze.it
 phone: 3519961362
 linkedin: "https://www.linkedin.com/in/gabriele-prestia-b21a8b213/"

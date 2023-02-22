@@ -1,7 +1,7 @@
 ---
 short_name: Andrea
 name: Andrea Cattaneo
-thumbnail: Cattaneo.jpg
+thumbnail: Cattaneo.JPG
 email: andrea@apcelettrorappresentanze.it
 phone: 3401240390
 linkedin: "https://www.linkedin.com/in/andrea-cattaneo-b661a397/"

@@ -1,7 +1,7 @@
 ---
 short_name: Valentina
 name: Valentina Bortoletti
-thumbnail: Bortoletti.jpg
+thumbnail: Bortoletti.JPG
 email: valentina@apcelettrorappresentanze.it
 phone: 035 0075411
 linkedin: "https://www.linkedin.com/in/valentina-bortoletti-73431b232/"

@@ -1,7 +1,7 @@
 ---
 short_name: Rossana
 name: Rossana Foiadelli
-thumbnail: Foiadelli.jpg
+thumbnail: Foiadelli.JPG
 email: amministrazione@apcelettrorappresentanze.it
 phone: 035 0075411
 position: Amministrazione e back office
