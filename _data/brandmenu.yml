@@ -8,10 +8,6 @@ toc:
   url: https://www.beghelli.it/it
   image: /assets/images/brand/beghelli_logo.svg
   style: brand_logo beghelli
-- title: Somfy
-  url: https://www.somfy.it
-  image: /assets/images/brand/somfy_logo.svg
-  style: brand_logo somfy
 - title: BTF
   url: https://www.bft-automation.com/it_IT/
   image: /assets/images/brand/btf_logo.svg
@@ -20,15 +16,15 @@ toc:
   url: https://www.abctools.it/
   image: /assets/images/brand/ABC_tools_logo.png
   style: brand_logo abctools
-- title: Zotup
-  url: https://www.zotup.com/
-  image: /assets/images/brand/zotup_logo.png
-  style: brand_logo zotup
 - title: Televes
   url: https://www.televes.com/
   image: /assets/images/brand/televes_logo.svg
   style: brand_logo televes
-- title: Green Power
-  url: https://www.https://www.greenpowergen.it/it/
-  image: /assets/images/brand/green_power_gen_logo.png
-  style: brand_logo greenpowergen
+- title: System Air
+  url: https://www.sistemair.it/
+  image: /assets/images/brand/sistemair_logo.png
+  style: brand_logo systemair
+- title: Amocanali
+  url: https://www.arnocanali.it/
+  image: /assets/images/brand/arnocanali_logo.png
+  style: brand_logo amocanali
