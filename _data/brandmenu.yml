@@ -8,6 +8,10 @@ toc:
   url: https://www.beghelli.it/it
   image: /assets/images/brand/beghelli_logo.svg
   style: brand_logo beghelli
+- title: Siemens
+  url: https://www.siemens.com/global/en/products/consumer.html
+  image: /assets/images/brand/siemens_logo.svg
+  style: brand_logo siemens
 - title: BTF
   url: https://www.bft-automation.com/it_IT/
   image: /assets/images/brand/btf_logo.svg
@@ -28,3 +32,11 @@ toc:
   url: https://www.arnocanali.it/
   image: /assets/images/brand/arnocanali_logo.png
   style: brand_logo amocanali
+- title: HT
+  url: https://www.ht-instruments.it/it-it/
+  image: /assets/images/brand/ht_logo.png
+  style: brand_logo ht
+- title: Le Prolunghe
+  url: https://www.leprolunghe.com/
+  image: /assets/images/brand/leprolunghe_logo.png
+  style: brand_logo leprolunghe
