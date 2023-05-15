@@ -5,6 +5,6 @@ thumbnail: Bortoletti.JPG
 email: valentina@apcelettrorappresentanze.it
 phone: 035 0075411
 linkedin: "https://www.linkedin.com/in/valentina-bortoletti-73431b232/"
-position: Key account
+position: Preventivazione e marketing
 ---
 Il tuo riferimento per ogni richiesta di informazione e preventivo
